@@ -1,0 +1,10 @@
+.feature-item {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .feature-item.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
